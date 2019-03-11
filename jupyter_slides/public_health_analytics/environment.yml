@@ -1,6 +1,11 @@
-name: bmi_slides
 channels:
   - conda-forge
 dependencies:
-  - python=3.7
+  - python
+  - numpy
+  - matplotlib
+  - pandas
+  - bokeh
   - rise
+  - pip:
+    - jupyter-contrib-nbextensions
