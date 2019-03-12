@@ -7,5 +7,4 @@ dependencies:
   - pandas
   - bokeh
   - rise
-  - pip:
-    - jupyter-contrib-nbextensions
+  - jupyter_contrib_nbextensions
